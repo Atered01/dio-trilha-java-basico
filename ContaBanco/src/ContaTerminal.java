@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in).useLocale(new Locale("pt", "BR"));
 
-        double saldo = 1600;
+        int saldo = 1600;
 
         System.out.println("Por favor informe seu nome:");
         String nomeCliente = scanner.next();

@@ -1,7 +1,4 @@
----
-config:
-  theme: dark
----
+```mermaid
 classDiagram
 class ReprodutorMusical {
   <<interface>>
@@ -35,3 +32,4 @@ class Iphone {
 Iphone --> ReprodutorMusical
 Iphone --> AparelhoTelefonico
 Iphone --> NavegadorInternet
+```
